@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="header">Foriegn Training Program</header>
+    <h1>Registration Form</h1>
+    <form class="form">
+        <div class="inputs">
+            <div class="name input">
+                <label for="name">Full Name</label>
+                <input type="text" name="name" id="name" placeholder="Full Name">
+            </div>
+            <div class="email input">
+                <label for="email">Institute Email</label>
+                <input type="text" name="email" id="email" placeholder="">
+            </div>
+            <div class="gender input">
+                <label>Gender:</label>
+                <div>
+                    <label class="mymale">Male</label>
+                    <input type="radio" name="gender" id="male">
+                    <label class="myfemale">Female</label>
+                    <input type="radio" name="gender" id="female">
+                    <label class="myother">Other</label>
+                    <input type="radio" name="gender" id="other">
+                </div>
+            </div>
+            <div class="birthday input">
+                <label class="mydob">Date of Birth</label>
+                <input type="date" name="date">
+            </div>
+            <div class="password input">
+                <label class="mypwd">Create a new password</label>
+                <input type="password" name="newpassword">
+            </div>
+            <div class="url input">
+                <label class="mywebsite">Add your Website details</label>
+                <input type="url" name="url">
+            </div>
+            <div class="rollno input">
+                <label class="myroll">Institute Roll No</label>
+                <input type="text" name="rollno">
+            </div>
+            <div class="phonenumber input">
+                <label class="myphonenumber">Phone Number</label>
+                <input type="number" name="phonenumber" placeholder="+91">
+            </div>
+            <div class="department input">
+                <label class="mydepartment">Department</label>
+                <select>
+                    <option>Electrical Engineering</option>
+                    <option>Computer science</option>
+                    <option>Mathematics</option>
+                    <option>Mechanical</option>
+                    <option>Aerospace Engineering</option>
+                    <option>Agriculture and Food Engineering</option>
+                    <option>Geology</option>
+                    <option>Biotechnology</option>
+                    <option>Civil Engineering</option>
+                    <option>Chemistry</option>
+                    <option>Chemical Engineering</option>
+                    <option>Electronics and Electrical Communication Engg</option>
+                </select>
+            </div>
+            <div class="confirmpass input">
+                <label class="myconfirmpass">Confirm Password</label>
+                <input type="password" name="confirmpass">
+            </div>
+            <div class="files input">
+                <label class="myfiles">Attach your files:</label>
+                <input type="file" name="file">
+            </div>
+            <div class="uni input">
+                <label class="myuni">Select the university you prefer</label>
+                <input type="checkbox" name="">
+            </div>
+        </div>
+        <div class="buttons">
+            <input type="button" name="submit" value="Submit">
+            <input type="button" name="reset" value="Reset Now">
+        </div>
+
+    </form>
+
+</body>
+
+</html>
