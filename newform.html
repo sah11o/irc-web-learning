@@ -1,0 +1,85 @@
+<html>
+<style type="text/css">
+	.left {
+		margin-top: 200px;
+		margin-left: 100px;
+		margin-right: 100px;
+		font-size: 35px;
+		background-color: green;
+		padding-top: 5px;
+	}
+	.right {
+		margin: -220px 100px 0px 700px;
+        font-size: 35px;
+        background-color: green;
+    }
+    .buttons {
+    	margin-left: 600px;
+    	margin-top: 25px;
+
+    }
+    .ftp {
+    	text-align: center;
+    	font-size: 40px;
+    	background-color: blueviolet;
+    }
+</style>
+<header class="ftp">Foriegn Training Program Registration Form</header>
+<body>
+	<form>
+        <div class="left">		
+        <label class="myname">Full Name:</label>
+		<input type="text" name="name" placeholder="Name"><br>
+		<label class="myemail">Institute Email:</label>
+		<input type="text" name="email" placeholder="abc@kgpian.iitkgp.ac.in"><br>
+		<label class="mygender">Gender:</label>
+		<label class="mymale">Male</label>
+		<input type="radio" name="male">
+        <label class="myfemale">Female</label>
+		<input type="radio" name="female">
+		<label class="myother">Other</label>
+		<input type="radio" name="other"><br>
+		<label class="mydob">Date of Birth</label>
+		<input type="date" name="date"><br>
+		<label class="mypwd">Create a new password</label>
+		<input type="password" name="newpassword"><br>
+		<label class="mywebsite">Add your Website details</label>
+		<input type="url" name="url">
+		</div>
+		<div class="right">
+			<label class="myroll">Institute Roll No:</label>
+			<input type="text" name="rollno"><br>
+			<label class="myphonenumber">Phone Number</label>
+			<input type="number" name="phonenumber" placeholder="+91"><br>
+			<label class="mydepartment">Department</label>
+			<select>
+			<option>Electrical Engineering</option>
+ 	        <option>Computer science</option>
+            <option>Mathematics</option>
+            <option>Mechanical</option>
+            <option>Aerospace Engineering</option>
+            <option>Agriculture and Food Engineering</option>
+            <option>Geology</option>
+            <option>Biotechnology</option> 
+            <option>Civil Engineering</option>
+            <option>Chemistry</option>
+            <option>Chemical Engineering</option>
+            <option>Electronics and Electrical Communication Engg</option>
+            </select><br>
+        <label class="myconfirmpwd">Confirm Password</label>
+        <input type="password" name="confirmpassword"><br>
+        <label class="myfiles">Attach your files:</label>
+        <input type="file" name="file"><br>
+        <label class="myuni">Select the university you prefer</label>
+        <input type="checkbox" name="">
+
+			
+		</div>
+		<div class="buttons">
+		<input type="button" name="submit" value="Submit" >
+		<input type="button" name="reset" value="Reset Now">
+	</div>
+
+	</form>
+</body>
+
