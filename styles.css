@@ -30,6 +30,10 @@ label {
   padding-bottom: 8px;
 }
 
+.buttons{
+    padding-top: 16px;
+}
+
 .buttons input {
   margin-bottom: 16px;
   width: 75%;
@@ -40,4 +44,8 @@ label {
     .buttons {
       max-width: 100%;
     }
+}
+
+body{
+    margin:  0;
 }
